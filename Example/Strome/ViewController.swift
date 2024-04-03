@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import Strome
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        Strome().isWorking
+        
     }
 
     override func didReceiveMemoryWarning() {

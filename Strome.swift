@@ -10,4 +10,8 @@ import Foundation
 
 public class Strome {
     public var isWorking: Bool = true
+    
+    public init(isWorking: Bool = true) {
+        self.isWorking = isWorking
+    }
 }
