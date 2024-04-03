@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'Strome_Example' do
+  pod 'Strome', :path => '../'
+
+  target 'Strome_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
