@@ -1,0 +1,6 @@
+framework module Pods_Strome_Example {
+  umbrella header "Pods-Strome_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

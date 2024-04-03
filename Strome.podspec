@@ -8,8 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Strome'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of Strome.'
+  s.version          = '0.0.1'
+  s.summary          = 'Swift framework for rapid development, offering seamless integration and enhanced functionality'
+  s.swift_versions = '4.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +19,23 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Strome is a dynamic Swift framework meticulously crafted to empower developers in their quest for efficient and rapid application development. Seamlessly integrating with native Swift frameworks like CoreData, UIKit, and Foundation, Strome equips developers with a suite of invaluable utilities and functions.
+
+Developed with a focus on boosting productivity and reducing development time, Strome enables developers to unleash their creativity and build exceptional applications for iOS, macOS, watchOS, and tvOS platforms. With Strome at your disposal, common development tasks become streamlined, allowing you to focus on crafting unique user experiences and innovative features.
+
+From simplifying data management to enhancing user interface design, Strome offers a comprehensive toolkit designed to accelerate development cycles and maximize efficiency. Whether you're a seasoned developer or just starting your journey, Strome empowers you to write cleaner, more maintainable code with ease.
+
+Experience the power of Strome and elevate your Swift development projects to new heights of excellence.
                        DESC
 
-  s.homepage         = 'https://github.com/Ravi/Strome'
+  s.homepage         = 'https://github.com/nanhemaurya/Strome'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Ravi' => 'ravim@snapwork.com' }
-  s.source           = { :git => 'https://github.com/Ravi/Strome.git', :tag => s.version.to_s }
+  s.author           = { 'Ravi Prakash Maurya' => 'info.nanhemaurya@gmail.com' }
+  s.source           = { :git => 'https://github.com/nanhemaurya/Strome.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'Strome/Classes/**/*'
   
@@ -37,6 +44,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+    s.frameworks = 'UIKit', 'Foundation', 'CoreData'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

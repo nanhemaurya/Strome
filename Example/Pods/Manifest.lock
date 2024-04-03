@@ -1,0 +1,16 @@
+PODS:
+  - Strome (0.1.0)
+
+DEPENDENCIES:
+  - Strome (from `../`)
+
+EXTERNAL SOURCES:
+  Strome:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Strome: c78e7eb82b261eac25e2c76d7f9a5e8dd136bea0
+
+PODFILE CHECKSUM: 411b8d8c2075d898b09ae3b858e65b032b35691b
+
+COCOAPODS: 1.15.2
