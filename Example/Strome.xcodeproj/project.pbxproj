@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		241225DFE5001D3911C0228E /* Pods-Strome_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Strome_Tests.release.xcconfig"; path = "Target Support Files/Pods-Strome_Tests/Pods-Strome_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5130B70ECBBE8E9EADEF57B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5130B70ECBBE8E9EADEF57B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Strome_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Strome_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,11 +41,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6DD2D7B85C0C0A5EA13B5364 /* Pods-Strome_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Strome_Example.release.xcconfig"; path = "Target Support Files/Pods-Strome_Example/Pods-Strome_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9FDC105774399D84C2EB54A2 /* Strome.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Strome.podspec; path = ../Strome.podspec; sourceTree = "<group>"; };
+		9FDC105774399D84C2EB54A2 /* Strome.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Strome.podspec; path = ../Strome.podspec; sourceTree = "<group>"; };
 		A26BCD750CCBC9042DC322DE /* Pods-Strome_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Strome_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Strome_Tests/Pods-Strome_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B0429F32492C4C9BD8E07CD3 /* Pods_Strome_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Strome_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8C879EC96F4DB058ABA936 /* Pods-Strome_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Strome_Example.debug.xcconfig"; path = "Target Support Files/Pods-Strome_Example/Pods-Strome_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D2F0F4C3A4B624F599111177 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D2F0F4C3A4B624F599111177 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F137E0A3F6A7D8B613C1A420 /* Pods_Strome_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Strome_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				A26BCD750CCBC9042DC322DE /* Pods-Strome_Tests.debug.xcconfig */,
 				241225DFE5001D3911C0228E /* Pods-Strome_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = K88PWVZP3U;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = K88PWVZP3U;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -419,7 +421,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +467,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -478,6 +480,7 @@
 			baseConfigurationReference = CE8C879EC96F4DB058ABA936 /* Pods-Strome_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K88PWVZP3U;
 				INFOPLIST_FILE = Strome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +496,7 @@
 			baseConfigurationReference = 6DD2D7B85C0C0A5EA13B5364 /* Pods-Strome_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K88PWVZP3U;
 				INFOPLIST_FILE = Strome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -507,6 +511,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A26BCD750CCBC9042DC322DE /* Pods-Strome_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = K88PWVZP3U;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +534,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 241225DFE5001D3911C0228E /* Pods-Strome_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = K88PWVZP3U;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
