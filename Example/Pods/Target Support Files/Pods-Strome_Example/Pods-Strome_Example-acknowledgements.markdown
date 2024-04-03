@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## Strome
 
-Copyright (c) 2024 Ravi <ravim@snapwork.com>
+Copyright (c) 2024 Ravi Prakash Maurya <info.nanhemaurya@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

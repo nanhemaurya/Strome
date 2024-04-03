@@ -22,7 +22,7 @@ pod 'Strome'
 
 ## Author
 
-Ravi, ravim@snapwork.com
+Ravi Prakash Maurya, info.nanhemaurya@gmail.com
 
 ## License
 
