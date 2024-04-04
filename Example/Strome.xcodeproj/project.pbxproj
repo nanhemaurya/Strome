@@ -212,12 +212,10 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = K88PWVZP3U;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = K88PWVZP3U;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -480,7 +478,6 @@
 			baseConfigurationReference = CE8C879EC96F4DB058ABA936 /* Pods-Strome_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = K88PWVZP3U;
 				INFOPLIST_FILE = Strome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -496,7 +493,6 @@
 			baseConfigurationReference = 6DD2D7B85C0C0A5EA13B5364 /* Pods-Strome_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = K88PWVZP3U;
 				INFOPLIST_FILE = Strome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -511,7 +507,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A26BCD750CCBC9042DC322DE /* Pods-Strome_Tests.debug.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = K88PWVZP3U;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -534,7 +529,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 241225DFE5001D3911C0228E /* Pods-Strome_Tests.release.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = K88PWVZP3U;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

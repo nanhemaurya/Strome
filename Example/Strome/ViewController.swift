@@ -13,10 +13,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        Strome.shared.isWorking
+        
         // Do any additional setup after loading the view, typically from a nib.
-        
-        Strome().isWorking
-        
     }
 
     override func didReceiveMemoryWarning() {

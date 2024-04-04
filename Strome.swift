@@ -6,12 +6,7 @@
 //
 
 import Foundation
-
-
-public class Strome {
+final public class Strome: NSObject {
+    public static var shared = Strome()
     public var isWorking: Bool = true
-    
-    public init(isWorking: Bool = true) {
-        self.isWorking = isWorking
-    }
 }
