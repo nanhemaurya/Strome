@@ -1,12 +1,12 @@
 //
-//  NewStrome.swift
+//  Main.swift
 //  Strome
 //
 //  Created by Ravi Maurya on 04/04/24.
 //
 
 import Foundation
-final public class NewStrome: NSObject {
-    public static var shared = Strome()
+public class Main: NSObject {
+    public static var shared = Main()
     public var isWorking: Bool = true
 }
