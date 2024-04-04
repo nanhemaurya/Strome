@@ -1,6 +1,6 @@
 # Strome
 
-[![CI Status](https://img.shields.io/travis/Ravi/Strome.svg?style=flat)](https://travis-ci.org/Ravi/Strome)
+[![CI Status](https://img.shields.io/travis/nanhemaurya/Strome.svg?style=flat)](https://travis-ci.org/nanhemaurya/Strome)
 [![Version](https://img.shields.io/cocoapods/v/Strome.svg?style=flat)](https://cocoapods.org/pods/Strome)
 [![License](https://img.shields.io/cocoapods/l/Strome.svg?style=flat)](https://cocoapods.org/pods/Strome)
 [![Platform](https://img.shields.io/cocoapods/p/Strome.svg?style=flat)](https://cocoapods.org/pods/Strome)
