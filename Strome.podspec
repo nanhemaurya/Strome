@@ -37,7 +37,8 @@ Experience the power of Strome and elevate your Swift development projects to ne
 
   s.ios.deployment_target = '12.0'
 
-  s.source_files = 'Strome/Classes/**/*'
+  #s.source_files = 'Strome/Classes/**/*'
+  s.source_files = 'Strome/Classes/**/*.swift'
   
   # s.resource_bundles = {
   #   'Strome' => ['Strome/Assets/*.png']

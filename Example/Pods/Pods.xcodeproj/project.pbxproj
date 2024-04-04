@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		13BC77CEC9A160410F045FE90761180D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		14DAE87D2BBE6CAD006D21C8 /* Strome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DAE87C2BBE6CAD006D21C8 /* Strome.swift */; };
+		14DAE87D2BBE6CAD006D21C8 /* NewStrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DAE87C2BBE6CAD006D21C8 /* NewStrome.swift */; };
 		171C9F5383D9819F8FAF415DA6570CF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3E4F8C741CB0E7E7967BDA46BA05604C /* Pods-Strome_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 285AF7DD2CD91F83853C332A0A9DC0E6 /* Pods-Strome_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B4B4014CB50C0105499DA6924923C85 /* Pods-Strome_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 034846B4D16F2B2D953146C5AC2DFDD5 /* Pods-Strome_Tests-dummy.m */; };
 		6B8EC3DA9A3CE58D1F8507B1E33C96C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		86475C05FDB750FB3FF0A33600D3BFE5 /* Strome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E9F4785929BEAB79CBAA4A7FC3F030 /* Strome-dummy.m */; };
 		BF0A606967350CDF8A751776E31E157B /* Pods-Strome_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E631AF67686C18C979D436744665A5 /* Pods-Strome_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C6B562109E58AC27A311FAB8133E89B7 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7CD94F63354071D83A45038FB0FEE8 /* ReplaceMe.swift */; };
+		C6B562109E58AC27A311FAB8133E89B7 /* Strome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7CD94F63354071D83A45038FB0FEE8 /* Strome.swift */; };
 		CFE1F1F7BDEC3AB6B785F8AAFE62E763 /* Strome-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B825A38F8C0A75F9910B70D6A077F988 /* Strome-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9829D9A2CCD2CECD770D99F287A22BD /* Pods-Strome_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B76168757F99F2F670ABAA88366A6BEA /* Pods-Strome_Example-dummy.m */; };
 /* End PBXBuildFile section */
@@ -39,8 +39,8 @@
 
 /* Begin PBXFileReference section */
 		034846B4D16F2B2D953146C5AC2DFDD5 /* Pods-Strome_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Strome_Tests-dummy.m"; sourceTree = "<group>"; };
-		0A7CD94F63354071D83A45038FB0FEE8 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Strome/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		14DAE87C2BBE6CAD006D21C8 /* Strome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strome.swift; sourceTree = "<group>"; };
+		0A7CD94F63354071D83A45038FB0FEE8 /* Strome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Strome.swift; path = Strome/Classes/Strome.swift; sourceTree = "<group>"; };
+		14DAE87C2BBE6CAD006D21C8 /* NewStrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewStrome.swift; sourceTree = "<group>"; };
 		1F4CFED5728FE062D1259DCC09F50714 /* Pods-Strome_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Strome_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		285AF7DD2CD91F83853C332A0A9DC0E6 /* Pods-Strome_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Strome_Tests-umbrella.h"; sourceTree = "<group>"; };
 		292BDB820ACF8238324FEFEA99478345 /* Pods-Strome_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Strome_Example"; path = Pods_Strome_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -217,8 +217,8 @@
 		F4C8C98C424466997D048F45B0F33BED /* Strome */ = {
 			isa = PBXGroup;
 			children = (
-				0A7CD94F63354071D83A45038FB0FEE8 /* ReplaceMe.swift */,
-				14DAE87C2BBE6CAD006D21C8 /* Strome.swift */,
+				0A7CD94F63354071D83A45038FB0FEE8 /* Strome.swift */,
+				14DAE87C2BBE6CAD006D21C8 /* NewStrome.swift */,
 				D90E305075312AB74458EDDC2B79F374 /* Pod */,
 				921DA76F3390B594419D493F3B7D746E /* Support Files */,
 			);
@@ -386,8 +386,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14DAE87D2BBE6CAD006D21C8 /* Strome.swift in Sources */,
-				C6B562109E58AC27A311FAB8133E89B7 /* ReplaceMe.swift in Sources */,
+				14DAE87D2BBE6CAD006D21C8 /* NewStrome.swift in Sources */,
+				C6B562109E58AC27A311FAB8133E89B7 /* Strome.swift in Sources */,
 				86475C05FDB750FB3FF0A33600D3BFE5 /* Strome-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
