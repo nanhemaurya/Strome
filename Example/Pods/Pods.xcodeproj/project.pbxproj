@@ -8,16 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		13BC77CEC9A160410F045FE90761180D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		144B10382BC29EB900910EAB /* EntityRelationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144B10372BC29EB900910EAB /* EntityRelationship.swift */; };
+		144B10392BC576AF00910EAB /* FileServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144B10352BC27C6400910EAB /* FileServices.swift */; };
+		1459326E2BBFC32B0039AB0D /* PersistableEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1459326D2BBFC32B0039AB0D /* PersistableEntity.swift */; };
+		145932702BBFC3F30039AB0D /* PersistableColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1459326F2BBFC3F20039AB0D /* PersistableColumn.swift */; };
+		145932722BBFD8020039AB0D /* PersistantStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145932712BBFD8020039AB0D /* PersistantStack.swift */; };
+		145932742BBFD8770039AB0D /* PersistableDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145932732BBFD8770039AB0D /* PersistableDataBase.swift */; };
 		14DAE87D2BBE6CAD006D21C8 /* NewStrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DAE87C2BBE6CAD006D21C8 /* NewStrome.swift */; };
 		14DAE8852BBE941F006D21C8 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DAE8832BBE941F006D21C8 /* Main.swift */; };
 		14DAE88A2BBE948C006D21C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14DAE8892BBE948C006D21C8 /* Assets.xcassets */; };
+		14DAE88E2BBE9C1B006D21C8 /* Persistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DAE88C2BBE9C16006D21C8 /* Persistable.swift */; };
+		14DAE8902BBE9C60006D21C8 /* ResultPersistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DAE88F2BBE9C60006D21C8 /* ResultPersistable.swift */; };
 		171C9F5383D9819F8FAF415DA6570CF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3E4F8C741CB0E7E7967BDA46BA05604C /* Pods-Strome_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 285AF7DD2CD91F83853C332A0A9DC0E6 /* Pods-Strome_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B4B4014CB50C0105499DA6924923C85 /* Pods-Strome_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 034846B4D16F2B2D953146C5AC2DFDD5 /* Pods-Strome_Tests-dummy.m */; };
 		6B8EC3DA9A3CE58D1F8507B1E33C96C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		86475C05FDB750FB3FF0A33600D3BFE5 /* Strome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E9F4785929BEAB79CBAA4A7FC3F030 /* Strome-dummy.m */; };
 		BF0A606967350CDF8A751776E31E157B /* Pods-Strome_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E631AF67686C18C979D436744665A5 /* Pods-Strome_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C6B562109E58AC27A311FAB8133E89B7 /* Strome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7CD94F63354071D83A45038FB0FEE8 /* Strome.swift */; };
+		C6B562109E58AC27A311FAB8133E89B7 /* StromeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7CD94F63354071D83A45038FB0FEE8 /* StromeManager.swift */; };
 		CFE1F1F7BDEC3AB6B785F8AAFE62E763 /* Strome-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B825A38F8C0A75F9910B70D6A077F988 /* Strome-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9829D9A2CCD2CECD770D99F287A22BD /* Pods-Strome_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B76168757F99F2F670ABAA88366A6BEA /* Pods-Strome_Example-dummy.m */; };
 /* End PBXBuildFile section */
@@ -41,13 +49,21 @@
 
 /* Begin PBXFileReference section */
 		034846B4D16F2B2D953146C5AC2DFDD5 /* Pods-Strome_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Strome_Tests-dummy.m"; sourceTree = "<group>"; };
-		0A7CD94F63354071D83A45038FB0FEE8 /* Strome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Strome.swift; sourceTree = "<group>"; };
+		0A7CD94F63354071D83A45038FB0FEE8 /* StromeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StromeManager.swift; sourceTree = "<group>"; };
+		144B10352BC27C6400910EAB /* FileServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileServices.swift; sourceTree = "<group>"; };
+		144B10372BC29EB900910EAB /* EntityRelationship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityRelationship.swift; sourceTree = "<group>"; };
+		1459326D2BBFC32B0039AB0D /* PersistableEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistableEntity.swift; sourceTree = "<group>"; };
+		1459326F2BBFC3F20039AB0D /* PersistableColumn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistableColumn.swift; sourceTree = "<group>"; };
+		145932712BBFD8020039AB0D /* PersistantStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistantStack.swift; sourceTree = "<group>"; };
+		145932732BBFD8770039AB0D /* PersistableDataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistableDataBase.swift; sourceTree = "<group>"; };
 		14DAE87C2BBE6CAD006D21C8 /* NewStrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewStrome.swift; sourceTree = "<group>"; };
 		14DAE8832BBE941F006D21C8 /* Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		14DAE8892BBE948C006D21C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14DAE88C2BBE9C16006D21C8 /* Persistable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistable.swift; sourceTree = "<group>"; };
+		14DAE88F2BBE9C60006D21C8 /* ResultPersistable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultPersistable.swift; sourceTree = "<group>"; };
 		1F4CFED5728FE062D1259DCC09F50714 /* Pods-Strome_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Strome_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		285AF7DD2CD91F83853C332A0A9DC0E6 /* Pods-Strome_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Strome_Tests-umbrella.h"; sourceTree = "<group>"; };
-		292BDB820ACF8238324FEFEA99478345 /* Pods-Strome_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Strome_Example"; path = Pods_Strome_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		292BDB820ACF8238324FEFEA99478345 /* Pods_Strome_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Strome_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		370BA5C57BFF4DD7126F1726AD2A3FD6 /* Strome.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Strome.modulemap; sourceTree = "<group>"; };
 		45CE157A47C4B3FAB6817F78154AC4CE /* Pods-Strome_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Strome_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		596477009C3BD4A7FBB728E2060FDDB5 /* Strome.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Strome.podspec; sourceTree = "<group>"; tabWidth = 2; };
@@ -106,10 +122,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		144B10342BC27C1300910EAB /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				144B10352BC27C6400910EAB /* FileServices.swift */,
+			);
+			path = FileManager;
+			sourceTree = "<group>";
+		};
 		14DAE8812BBE941F006D21C8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				0A7CD94F63354071D83A45038FB0FEE8 /* Strome.swift */,
+				144B10342BC27C1300910EAB /* FileManager */,
+				14DAE88B2BBE9B31006D21C8 /* CoreData */,
+				0A7CD94F63354071D83A45038FB0FEE8 /* StromeManager.swift */,
 				14DAE87C2BBE6CAD006D21C8 /* NewStrome.swift */,
 				14DAE8832BBE941F006D21C8 /* Main.swift */,
 			);
@@ -124,6 +150,20 @@
 			);
 			name = Assets;
 			path = Strome/Assets;
+			sourceTree = "<group>";
+		};
+		14DAE88B2BBE9B31006D21C8 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				14DAE88C2BBE9C16006D21C8 /* Persistable.swift */,
+				145932732BBFD8770039AB0D /* PersistableDataBase.swift */,
+				145932712BBFD8020039AB0D /* PersistantStack.swift */,
+				14DAE88F2BBE9C60006D21C8 /* ResultPersistable.swift */,
+				1459326F2BBFC3F20039AB0D /* PersistableColumn.swift */,
+				1459326D2BBFC32B0039AB0D /* PersistableEntity.swift */,
+				144B10372BC29EB900910EAB /* EntityRelationship.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 		173B44C4FC97A6D61913D59E54252DA0 /* Pods-Strome_Example */ = {
@@ -154,7 +194,7 @@
 		8C9659A438069701141CBC4F2796B0BF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				292BDB820ACF8238324FEFEA99478345 /* Pods-Strome_Example */,
+				292BDB820ACF8238324FEFEA99478345 /* Pods_Strome_Example.framework */,
 				ADF02F871E6C33C65D6E463A6957A5AA /* Pods-Strome_Tests */,
 				683C8449CBD1C555F70554B892192D1F /* Strome */,
 			);
@@ -296,7 +336,7 @@
 			);
 			name = "Pods-Strome_Example";
 			productName = Pods_Strome_Example;
-			productReference = 292BDB820ACF8238324FEFEA99478345 /* Pods-Strome_Example */;
+			productReference = 292BDB820ACF8238324FEFEA99478345 /* Pods_Strome_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E19D91FF9A4FF885F8B37C85632A496F /* Pods-Strome_Tests */ = {
@@ -344,6 +384,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					0C10DB0F617A56C7D43FE9104A9915D4 = {
+						LastSwiftMigration = 1500;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -412,9 +457,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				14DAE87D2BBE6CAD006D21C8 /* NewStrome.swift in Sources */,
-				C6B562109E58AC27A311FAB8133E89B7 /* Strome.swift in Sources */,
+				145932722BBFD8020039AB0D /* PersistantStack.swift in Sources */,
+				1459326E2BBFC32B0039AB0D /* PersistableEntity.swift in Sources */,
+				C6B562109E58AC27A311FAB8133E89B7 /* StromeManager.swift in Sources */,
 				14DAE8852BBE941F006D21C8 /* Main.swift in Sources */,
+				144B10392BC576AF00910EAB /* FileServices.swift in Sources */,
+				145932742BBFD8770039AB0D /* PersistableDataBase.swift in Sources */,
+				14DAE8902BBE9C60006D21C8 /* ResultPersistable.swift in Sources */,
 				86475C05FDB750FB3FF0A33600D3BFE5 /* Strome-dummy.m in Sources */,
+				144B10382BC29EB900910EAB /* EntityRelationship.swift in Sources */,
+				145932702BBFC3F30039AB0D /* PersistableColumn.swift in Sources */,
+				14DAE88E2BBE9C1B006D21C8 /* Persistable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +494,7 @@
 			baseConfigurationReference = 1F4CFED5728FE062D1259DCC09F50714 /* Pods-Strome_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -463,6 +517,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -632,6 +688,7 @@
 			baseConfigurationReference = 988C890E1883077C344365ED503538F1 /* Pods-Strome_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -654,6 +711,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
